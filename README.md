@@ -14,9 +14,9 @@ Shwop is a marketplace which connects sellers and buyers. Sell product and servi
 8. Faster response to buyer/market demands
 9. Several payment modes
 
-You can spend less time shopping for what you want. you can easily browse through many items at a time and buy what they like. When online, 
+You can spend less time shopping for what you want. you can easily browse through many items at a time and buy what you like. When online, 
 customers can find items that are available in physical stores far away from them or not found in their locality.
-For example - Rajesh is a customer who goes to a store to buy a washing machine. After searching, he realises that he cannot find the product he needs. 
+For example - David is a customer who goes to a store to buy a washing machine. After searching, he realises that he cannot find the product he needs. 
 He logs onto a ShwopApp marketplace and finds the washing machine. What is even better is that there is a special offer price and it can be delivered to his home.
 This is where ShwopApp comes to the rescue for many shoppers. They go online, search for an item, get a fast response and can buy it just as quickly.
 Advantages of ShwopApp include helping one to choose from a wide range of products and get the order delivered too. Searching for an item, Like itetem or comment, seeing the description, 
