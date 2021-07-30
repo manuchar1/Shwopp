@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.bottom_navigation.sell_product.CreatePostFragment">
+
+
+        <TextView
+            android:id="@+id/tvShowYourProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_36sdp"
+            android:layout_marginVertical="@dimen/_20ssp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/show_your_product"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_16ssp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="47dp" />
+
+        <ImageView
+            android:id="@+id/ivSelect"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginHorizontal="@dimen/_36sdp"
+            android:layout_marginTop="28dp"
+            app:layout_constraintTop_toBottomOf="@+id/tvShowYourProduct"
+            app:srcCompat="@drawable/ic_select"
+            tools:layout_editor_absoluteX="47dp"
+            />
+
+        <ImageView
+            android:id="@+id/ivCamera"
+            android:layout_width="61dp"
+            android:layout_height="52dp"
+            app:layout_constraintBottom_toBottomOf="@+id/ivSelect"
+            app:layout_constraintEnd_toEndOf="@+id/ivSelect"
+            app:layout_constraintStart_toStartOf="@+id/ivSelect"
+            app:layout_constraintTop_toTopOf="@+id/ivSelect"
+            app:srcCompat="@drawable/ic_camera" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_36sdp"
+            android:layout_marginTop="16dp"
+            android:hint="Price"
+            android:inputType="text"
+            app:layout_constraintTop_toBottomOf="@+id/etProduct"
+            tools:layout_editor_absoluteX="46dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/tilDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_36sdp"
+            android:layout_marginStart="8dp"
+            android:hint="@string/description"
+            app:layout_constraintBottom_toTopOf="@+id/etProduct"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginTop="@dimen/_15sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivSelect"
+            app:startIconDrawable="@drawable/ic_description">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etDescription"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="@dimen/_36sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:ems="15"
+                android:background="@color/light_gray"
+                android:gravity="top|start"
+                android:inputType="textMultiLine"
+                android:lines="4"
+                android:maxLength="200"
+                android:maxLines="4"
+                android:textColor="@color/mainColor_dark_blue" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPublish"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_36sdp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/button_solid_background"
+            android:fontFamily="@font/poppins_bold"
+            android:text="publish"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12sdp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/etPrice"
+            tools:layout_editor_absoluteX="47dp" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_36sdp"
+            android:hint="product"
+            app:layout_constraintBottom_toTopOf="@+id/etPrice"
+            app:layout_constraintTop_toBottomOf="@+id/etDescription"
+            tools:layout_editor_absoluteX="47dp"
+            tools:layout_editor_absoluteY="412dp"
+            tools:ignore="NotSibling" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

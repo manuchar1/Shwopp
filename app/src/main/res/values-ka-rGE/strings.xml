@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shwop</string>
+    <string name="your_profile">პროფილი</string>
+    <string name="email">მეილი</string>
+    <string name="password">პაროლი</string>
+    <string name="login">შესვლა</string>
+    <string name="search_hint">ძებნა</string>
+    <string name="the_right_address_for_shopping_today">საუკეთესო ადგილი ვაჭრობისთვის</string>
+    <string name="register">რეგისტრაცია</string>
+    <string name="repeat_password">გაიმეორეთ პაროლი</string>
+    <string name="success_registration">წარმატებით დარეგისტრირდით</string>
+    <string name="logout">გასვლა</string>
+    <string name="language">ენა</string>
+    <string name="choose_a_language">აირჩიეთ ენა</string>
+    <string name="successfully_deleted">წარმატებით წაიშალა პროდუქტი</string>
+    <string name="your_cart_is_empty">კალათა ცარიელია</string>
+    <string name="show_your_product">გვაჩვენე შენი პროდუქტი</string>
+    <string name="comments">კომენტარები</string>
+    <string name="enter_comment">დაწერე კომენტარი</string>
+    <string name="error_no_image_chosen">გთხოვთ აირჩიეთ ფოტო პროდუქტისთვის</string>
+    <string name="follow">გამოწერა</string>
+    <string name="profile_updated">პროფილი წარმატებით განახლდა</string>
+    <string name="delete_post_dialog_title">ნამდვილად გსურთ პოსტის წაშლა?</string>
+    <string name="delete_post_dialog_positive">დიახ</string>
+    <string name="delete_post_dialog_negative">არა</string>
+    <string name="sell">გაყიდვა</string>
+    <string name="next_view_pager">შემდეგი</string>
+    <string name="next_view_pg">შემდეგი</string>
+    <string name="finish">დასრულება</string>
+    <string name="loading">შესვლა</string>
+    <string name="name">სახელი</string>
+</resources>

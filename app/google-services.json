@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "622273793774",
+    "project_id": "snpa-401cc",
+    "storage_bucket": "snpa-401cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622273793774:android:123be648eb6e52826fadff",
+        "android_client_info": {
+          "package_name": "com.tbcacademy.shwop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622273793774-golicd4u7nvtsafe9e56h059a0uqb62c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDTU8w28_5sbwejjbJeOmErILH6LOGVwUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622273793774-golicd4u7nvtsafe9e56h059a0uqb62c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

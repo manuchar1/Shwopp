@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="8dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ivPostAuthor"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/ivImage"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@color/mediumGray"/>
+
+        <TextView
+            android:id="@+id/tvAuthorName"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6sdp"
+            android:fontFamily="@font/poppins"
+            android:background="@color/mediumGray"
+            android:textColor="@color/black"
+            app:layout_constraintBottom_toBottomOf="@+id/ivPostAuthor"
+            app:layout_constraintStart_toEndOf="@+id/ivPostAuthor"
+            app:layout_constraintTop_toTopOf="@+id/ivPostAuthor" />
+
+        <View
+            android:id="@+id/ivImage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="88dp"
+            android:background="@color/mediumGray"
+            android:scaleType="centerCrop"
+            app:layout_constraintDimensionRatio="4:2"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvProductType"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:background="@color/mediumGray"
+            android:layout_marginTop="@dimen/_25sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnComments" />
+
+        <TextView
+            android:id="@+id/tvPrice"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/mediumGray"
+            android:fontFamily="@font/poppins_semibold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/ivImage" />
+
+        <TextView
+            android:id="@+id/tvDetails"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="6dp"
+            android:background="@color/mediumGray"
+            android:ellipsize="end"
+            android:fontFamily="@font/poppins"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvProductType"
+            />
+
+        <View
+            android:id="@+id/btnLike"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="6dp"
+            app:layout_constraintStart_toStartOf="@+id/ivImage"
+            app:layout_constraintTop_toBottomOf="@+id/ivImage"
+            android:background="@color/mediumGray" />
+
+
+        <View
+            android:id="@+id/btnComments"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="6dp"
+            android:background="@color/mediumGray"
+            app:layout_constraintStart_toEndOf="@+id/btnLike"
+            app:layout_constraintTop_toBottomOf="@+id/ivImage" />
+
+        <View
+            android:id="@+id/btnAddToCart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@color/mediumGray"
+            app:layout_constraintStart_toEndOf="@+id/btnComments"
+            app:layout_constraintTop_toBottomOf="@+id/ivImage"
+            android:layout_margin="6dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
